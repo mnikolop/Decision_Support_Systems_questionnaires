@@ -1,0 +1,179 @@
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+    color: #FFF;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    background-color: #08C;
+}
+.bs-docs-sidenav > li:last-child > a {
+    border-radius: 0px 0px 6px 0px;
+}
+.bs-docs-sidenav > li:first-child > a {
+    border-radius: 0px 6px 0px 0px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #EEE;
+}
+.bs-docs-sidenav > .active > a {
+    position: relative;
+    z-index: 2;
+    padding: 9px 15px;
+    border: 0px none;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.1) inset, -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+}
+.bs-docs-sidenav > li > a {
+}
+.bs-docs-sidenav > li > a {
+    display: block;
+    margin: 0px 0px -1px;
+    padding: 8px 14px;
+    border: 1px solid #E5E5E5;
+}
+.nav-list > li > a {
+    padding: 3px 15px;
+}
+.nav-list > li > a, .nav-list .nav-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+.nav > li > a {
+    display: block;
+}
+a:hover, a:focus {
+    color: #005580;
+    text-decoration: underline;
+}
+a:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+a {
+    color: #08C;
+    text-decoration: none;
+}
+li {
+    line-height: 20px;
+}
+.nav {
+    list-style: none outside none;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+html {
+    font-size: 100%;
+}
+
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+body {
+    line-height: 20px;
+    margin-top:0;
+    background: -webkit-linear-gradient(#EBF5FF, #33D685); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EBF5FF, #33D685); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EBF5FF, #33D685); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EBF5FF, #33D685); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+/*-------------------------------------------------------------*/
+
+#container{
+    position: relative;
+    height: relative;
+    margin: 0 auto;
+    border-bottom: 2px solid #330000;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    padding: 3.5% 1.6% 4%;
+} 
+/*----------------------------------------------------------*/
+
+#title{
+    position: relative;
+    height: .2%;
+    margin: 0 auto;
+    border-bottom: 2px solid #330000;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    padding: 3.5% 1.6% 4%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+} 
+/*----------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+#page-header{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 9px;
+    margin: 20px 0px 30px;
+    border-bottom: 1px solid #EEE;
+}
+
+/*-----------------------------------------------------------*/
+
+#text{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 auto;
+}
+/*-----------------------------------------------------------*/
+p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 auto;
+}
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+
+#left{
+    font-size: 8;
+}
+
+/*-------------------------------------------------------*/
+
+#element {
+    height: 30px;
+}
+/*---------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+
+ul.a {list-style-type:circle;}
+ul.b {list-style-type:disc;}
+ul.c {list-style-type:square;}
+
+ol.d {list-style-type:armenian;}
+ol.e {list-style-type:cjk-ideographic;}
+ol.f {list-style-type:decimal;}
+ol.g {list-style-type:decimal-leading-zero;}
+ol.h {list-style-type:georgian;}
+ol.i {list-style-type:hebrew;}
+ol.j {list-style-type:hiragana;}
+ol.k {list-style-type:hiragana-iroha;}
+ol.l {list-style-type:katakana;}
+ol.m {list-style-type:katakana-iroha;}
+ol.n {list-style-type:lower-alpha;}
+ol.o {list-style-type:lower-greek;}
+ol.p {list-style-type:lower-latin;}
+ol.q {list-style-type:lower-roman;}
+ol.r {list-style-type:upper-alpha;}
+ol.s {list-style-type:upper-latin;}
+ol.t {list-style-type:upper-roman;}
+
+ol.u {list-style-type:none;}
+ol.v {list-style-type:inherit;}
